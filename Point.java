@@ -22,7 +22,7 @@ public class Point{
   public double distanceTO(Point p) {
     return pythag(this.x - p.x, this.y - p.y);
   }
-  public double distance(point a, point b) {
+  public double distance(Point a, Point b) {
     return pythag(a.x - b.x, a.y - b.y);
   }
   public String toString() {
