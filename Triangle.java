@@ -29,14 +29,14 @@ public class Triangle{
     }
     return null;
   }
-  public void setVertex(int a, Point p) {
-  if (a == 0){
+  public void setVertex(int index, Point p) {
+  if (index == 0){
     this.v1 = new Point(p);
   }
-  if (a == 1){
+  if (index == 1){
     this.v2 = new Point(p);
   }
-  if (a == 2){
+  if (index == 2){
     this.v3 = new Point(p);
   }
   }
